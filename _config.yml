@@ -1,0 +1,22 @@
+# Site settings
+title: Darwin Isrin
+subtitle: "Coretan kehidupan"
+header-img: img/home-bg.jpg
+image: img/home-bg.jpg
+copyright_name: Darwin Isrin
+description: "Coretan berbagi dengan sesama tentang pengalaman hidup."
+url: "https://darwinisrin.github.io/"
+author: Darwin Isrin
+twitter_username: darwinisrin
+github_username:  darwinisrin
+facebook_username:  darwin.isrin
+email_username:  darwin.isrin@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
